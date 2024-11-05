@@ -13,6 +13,32 @@
   }
 }
 
+.blog-black-top {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  display: flex;
+  justify-content: start;
+  padding: 12px;
+}
+
+.list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+  gap: 50px;
+  padding: 12px;
+  border-bottom: 1px solid black;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
